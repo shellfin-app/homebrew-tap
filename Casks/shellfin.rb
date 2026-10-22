@@ -1,6 +1,6 @@
 cask "shellfin" do
-  version "0.1.0"
-  sha256 "180f15ef36a52733e1104ca794098c5debb58fcd2087dea7f5fc77aa43670a53"
+  version "0.1.1"
+  sha256 "3fb8ec74912c46896d3863f4a087b01a6c5ee865dabd470e8c8d4695f3fa5558"
 
   url "https://github.com/shellfin-app/shellfin/releases/download/v#{version}/Shellfin_#{version}_aarch64.dmg"
   name "Shellfin"
