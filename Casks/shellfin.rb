@@ -1,6 +1,6 @@
 cask "shellfin" do
-  version "0.1.1"
-  sha256 "3fb8ec74912c46896d3863f4a087b01a6c5ee865dabd470e8c8d4695f3fa5558"
+  version "0.2.0"
+  sha256 "854f4055ad0016a2729d19fcb4bf4357a7005de46c152583f8079979b58551e6"
 
   url "https://github.com/shellfin-app/shellfin/releases/download/v#{version}/Shellfin_#{version}_aarch64.dmg"
   name "Shellfin"
@@ -12,7 +12,6 @@ cask "shellfin" do
   end
 
   auto_updates true
-  conflicts_with cask: "shellfin@experimental"
   depends_on arch: :arm64
   depends_on macos: :big_sur
 
